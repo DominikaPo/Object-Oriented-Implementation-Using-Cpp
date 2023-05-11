@@ -13,7 +13,7 @@ class RuralManagement {
         this->acceptedSchemes=noOfSchemes;
     }
     void calcNoOfSchemes(int noOfSchemes,int noOfSchemesRejected){
-      //Implement your code here
+   
       acceptedSchemes = noOfSchemes - noOfSchemesRejected; 
 
    }
@@ -32,7 +32,7 @@ class RevenueManagement : public RuralManagement
         this->totalRevenue=revenue;
     }
     void calcTotalRevenue(int noOfTerritoriess,double revenue){
-       //Implement your code here
+  
        totalRevenue = noOfTerritoriess*revenue;
    }
 };
@@ -40,12 +40,12 @@ class SchemeManagement : public RevenueManagement
 {
   public:
    double allotMoneyPerScheme(){
-      //Implement your code here
+ 
       return totalRevenue/acceptedSchemes;
    }
 };
 
-// main function
+
 int main()
 { 
     int rejected,schemes,territories;
@@ -58,7 +58,6 @@ int main()
    cin>>schemes;
    cout<<"Enter number of schemes rejected :"<<endl;
    cin>>rejected;
-  //Implement your code here
   
   SchemeManagement s;
   s.setAcceptedSchemes(schemes);
