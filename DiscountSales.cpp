@@ -29,7 +29,7 @@ class Dress : public Product
 {
   public:
     char findSize(int chestSize){
-          //Implement your code
+         
         char size;
         if (chestSize >= 20 && chestSize <=30) {
             size = 'S';
@@ -48,7 +48,7 @@ class Dress : public Product
  {
   public:
      int calculatePrice(char chestSize){
-       //Implement your code
+    
        int price = getMarkedPrice() - ((getMarkedPrice() * getDiscount()) / 100);
         if (chestSize == 'M') {
             price += 500;
@@ -60,13 +60,13 @@ class Dress : public Product
      }
 };
 
-// main function
+
 int main()
 {
     int size;
    cout<<"Enter the chest size : ";
    cin>>size;
-   //fill the code here
+
    Shirt s;
    char a = s.findSize(size);
    int b = s.calculatePrice(a);
