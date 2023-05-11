@@ -41,27 +41,27 @@ class GeneralElection : public Election
   public:
   double votePer, womenVotePer, menVotePer;
    double calcVotePercentage(int partyA , int partyB){
-       //Implement your code
+       
         votePer = ( (partyA+partyB) *100 )/totalPeople;
        return votePer;
    }
    double calcWomenVotePercentage(int womenVotes){
-        //Implement your code
+     
         womenVotePer = (womenVotes*100)/noOfWomen;
         return womenVotePer;
    }
     double calcMenVotePercentage(int menVotes){
-        //Implement your code
+      
         menVotePer = (menVotes*100)/noOfMen;
         return menVotePer;
    }
 };
 
 
-// main function
+
 int main()
 {  
-    //Implement your code
+  
     long int totalPeople,noOfWomen,noOfMen;
     int partyA,partyB,womenVotes,menVotes;
     double votePer,womenVotePer,menVotePer;
@@ -79,7 +79,7 @@ int main()
    cin>>womenVotes;
    cout<<"Enter the number of men votes:";
    cin>>menVotes;
-   //fill the code here
+
    GeneralElection g;
     g.setTotalPeople(totalPeople);
     g.setNoOfWomen(noOfWomen);
