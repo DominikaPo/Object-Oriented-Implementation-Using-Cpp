@@ -4,9 +4,9 @@
 #include <cstring>
 using namespace std;
 
-int main() //DO NOT change the 'main' signature
+int main() 
 {
-    //Call the function and print the result
+
     
     string name = "";
     int index;
