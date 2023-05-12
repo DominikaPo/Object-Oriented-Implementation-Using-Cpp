@@ -9,7 +9,7 @@ class Shop {
         double itemPrice;
 
     public:
-         //Getters and setters for above variables.
+       
         string getItemName() {
             return itemName;
         }
@@ -32,9 +32,9 @@ class Shop {
    
 };
 
-int main()//DO NOT change the 'main' signature
+int main()
 {
-    //Input statements are provided as a part of code skeleton 
+
     string name;
     int quantity;
     double price;
@@ -45,7 +45,7 @@ int main()//DO NOT change the 'main' signature
     cout<<"Enter the item price:"<<endl;
     cin>>price;
     
-    //Fill the code here 
+  
     Shop e1;
     e1.setItemName(name);
     e1.setItemQuantity(quantity);
