@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Employee {    //DO NOT change the class name
+class Employee {  
     private:
         int employeeId;
         string employeeName;
         double salary;
         double netSalary;
     public:
-                //Include necessary methods 
+                
         int getEmployeeId() {
             return employeeId;
         }
@@ -41,9 +41,9 @@ class Employee {    //DO NOT change the class name
 };
 
 
-int main(){   //DO NOT change the 'main' signature
+int main(){  
 
-    //Input statements are included as a part of the code skeleton
+   
     int id;
 	string name;
 	double sal;
@@ -58,7 +58,7 @@ int main(){   //DO NOT change the 'main' signature
 	cout<<"Enter PF percentage:"<<endl;
 	cin>>pf;
     
-    //Fill code here
+  
     Employee e1;
     e1.setEmployeeId(id);
     e1.setEmployeeName(name);
