@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-class Player //DO NOT change the class name
+class Player 
 {
 private:
     int playerID;
@@ -35,13 +35,13 @@ public:
     }
     
     
-    //Implement a parameterized constructor for 3 arguments - playerID, playerName and playerScore.
+ 
     Player(int id, string name, int score) {
         playerID = id;
         playerName = name;
         playerScore = score;
     }
-    //Implement a parameterized constructor for 4 arguments - playerID, playerName,playedMatches and playerScore.
+   
     Player(int id, string name, int matches, int score) {
         playerID = id;
         playerName = name;
@@ -52,7 +52,7 @@ public:
     
     void displayThreeArgument()
     {      
-         //Implement your code here
+
         
         cout<<"Player ID. : "<<playerID<<endl;
         cout<<"Player Name : "<<playerName<<endl;
@@ -63,7 +63,7 @@ public:
 
     void displayFourArgument()
     {
-       //Implement your code here
+
         
         cout<<"Player ID. : "<<playerID<<endl;
         cout<<"Player Name : "<<playerName<<endl;
@@ -72,7 +72,7 @@ public:
         return;
     }
     
-    //Implement Destructor here
+
     Player() {
         
     }
@@ -82,7 +82,7 @@ public:
 };
 
 int main(){
-    //Implement your code here
+
     
     Player e1(1001, "John", 103);
     e1.displayThreeArgument();
