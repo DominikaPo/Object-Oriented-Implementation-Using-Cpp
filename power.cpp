@@ -5,9 +5,8 @@
 using namespace std;
 
 
-int main()   //DO NOT change the 'main' signature
+int main() 
 {
-    //Fill code here
     
     int number;
     int powerValue;
