@@ -9,7 +9,7 @@ class Mobile{
         double mobilePrice;
         
     public:    
-        //Include Getters and setters for above variables.
+  
         string getMobileBrand() {
             return mobileBrand;
         }
@@ -31,9 +31,8 @@ class Mobile{
         }
 };
 
-int main()//DO NOT change the 'main' signature
+int main()
 {
-        //Input statements are provided as part of the code skeleton
         string brand,model;
         double price;
         cout<<"Enter the mobile brand:"<<endl;
@@ -43,7 +42,7 @@ int main()//DO NOT change the 'main' signature
         cout<<"Enter the mobile price:"<<endl;
         cin>>price;
         
-        //Fill the code here
+  
         Mobile e1;
         e1.setMobileBrand(brand);
         e1.setMobileModelName(model);
