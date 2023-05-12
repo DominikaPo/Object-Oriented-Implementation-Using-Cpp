@@ -5,7 +5,7 @@
 using namespace std;
 
 int findSquare(int num){
-    //fill the code here
+  
     
     if (num > 0) {
         return num*num;
@@ -16,12 +16,12 @@ int findSquare(int num){
     return 0;
 }
 
-int main() //DO NOT change the 'main' signature
+int main() 
 {
     int number, x;
     
     cin>>number;
-    //Call the function and print the result
+
     x = findSquare(number);
     cout<<x;
     
