@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Train //Add required code
+class Train 
 {
     private:
         long passengerPhone;
@@ -10,7 +10,7 @@ class Train //Add required code
         int age;
         double ticketPrice;
     public:
-    //include required getter and setter method
+ 
         long getPassengerPhone() {
             return passengerPhone;
         }
@@ -63,8 +63,8 @@ class Train //Add required code
         }
 };
 
-int main(){   //DO NOT change the 'main' signature
-    //Fill code here
+int main(){  
+
     long phone;
     string name;
     char gender;
@@ -80,7 +80,7 @@ int main(){   //DO NOT change the 'main' signature
     cin>>gender;
     cout<<"Enter the Ticket Price: ";
     cin>>ticketPrice;
-    //fill the code here
+
     Train t1;
     t1.setAge(age);
     t1.setGender(gender);
