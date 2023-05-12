@@ -3,7 +3,7 @@ using namespace std;
 class College
 {
     private:
-        string principal_name;  // principal_name is common for all the students
+        string principal_name;
     public:
         static void setPrincipalName(string name)
         {
@@ -74,8 +74,8 @@ class Student
             return cObj;
         }
 };
-int main()  //DO NOT change the 'main' signature
+int main() 
 {
-    //Fill code here
+   
     return 0;
 }
