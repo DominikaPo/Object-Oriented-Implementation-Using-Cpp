@@ -32,7 +32,7 @@ class MovieHeroine : public Heroine
     }
     
    long calcEarnings(int noOfDays){
-       //Implement your code
+ 
        
         long totalEarnings = earningsPerDay * noOfDays;
 
@@ -77,7 +77,7 @@ class AdvertisementModel : public Heroine
         return totalEarnings;
    }
 };
-// main function
+
 int main()
 {  
     int movie,ad,rating,daysRun;
@@ -92,7 +92,7 @@ int main()
     cin>>movie;
     cout<<"Enter the number of days movie run:"<<endl;
     cin>>daysRun;
-   //Implement your code
+
   
     cout<<"Enter the number of days for advertisement  :"<<endl;
     cin>>ad;
