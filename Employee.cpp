@@ -4,13 +4,13 @@
 #include <iostream>
 using namespace std;
 
-class Employee {    //DO NOT change the class name
+class Employee {  
     private:
         int associateId;
         string associateName;
         string workStatus;
     public:
-    //Include necessary methods
+    
         string work;
         int days;
         
@@ -47,9 +47,9 @@ class Employee {    //DO NOT change the class name
 };
 
 
-int main(){   //DO NOT change the 'main' signature
+int main(){   
 
-    //Input statements are included as a part of code skeleton 
+    
     int id;
 	string name;
 	int days;
@@ -60,7 +60,7 @@ int main(){   //DO NOT change the 'main' signature
 	cout<<"Enter the number of days:";
 	cin>>days;
     
-    //Fill the code here 
+   
     string work;
     
     Employee e1;
