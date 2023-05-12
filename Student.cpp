@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Student {    //DO NOT change the class name
+class Student {   
     private:
         int studentId;
         string name;
@@ -9,7 +9,7 @@ class Student {    //DO NOT change the class name
         string gender;
         string phoneNumber;
   public:    
-    //Include Getters and setters for above variables.
+
     void setStudentId(int id) {
         studentId = id;
     }
@@ -42,9 +42,9 @@ class Student {    //DO NOT change the class name
     }
 
 };
-int main()//DO NOT change the 'main' signature
+int main()
 {
-    //Input statements are provided as a part of the code skeleton
+
     int id,deptId;
     string name,gender,phNo;
     cout<<"Enter the details:"<<endl;
@@ -59,7 +59,7 @@ int main()//DO NOT change the 'main' signature
     cout<<"Phone Number"<<endl;
     cin>>phNo;
     
-    //Fill the code here
+
     Student e1;
     e1.setStudentId(id);
     e1.setName(name);
