@@ -16,7 +16,7 @@ class Examination
         }
     void displayResult(int gradePoint)
     {
-        //fill the code here
+      
         if (gradePoint > passMark) {
             cout<<"Pass"<<endl;
         }
@@ -30,7 +30,7 @@ class ScienceExam : public Examination
   public:
 
     int  calculateGradePoints(int mark){
-    //Implement your code  
+   
       return 2*mark;
     }
 };
@@ -45,7 +45,7 @@ class ScienceExam : public Examination
     }
 };
 
-// main function
+
 int main()
 {  
     int smark,mathmark;
@@ -53,7 +53,7 @@ int main()
     cin>>smark;
     cout<<"Enter the mark in Maths:";
     cin>>mathmark;
-    //Implement your code 
+
     
     ScienceExam s;
     s.setPassMark(100);
